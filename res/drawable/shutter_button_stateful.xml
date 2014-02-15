@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+	<item android:state_pressed="true" android:drawable="@drawable/shutter_button_pressed">
+	</item>	     
+	
+	<item android:state_focused="true" android:drawable="@drawable/shutter_button_focused">
+    </item>
+    
+	<!-- 
+	<item > 
+        <shape > 
+        	<stroke android:color="" android:width="" />
+        	<corners android:topLeftRadius="5" android:topRightRadius="" android:bottomLeftRadius="" android:bottomRightRadius="" />
+        </shape> 
+    </item>
+    -->
+	
+	<item android:drawable="@drawable/shutter_button">
+	</item>	     	    
+   
+	    
+</selector>

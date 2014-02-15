@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/shadow" />
+    </item>
+    
+    <item>
+		<shape xmlns:android="http://schemas.android.com/apk/res/android"
+		   android:shape="rectangle">
+		    <solid android:color="#80000000" />
+		    <corners
+		    	android:bottomRightRadius="8dp"
+		    	android:bottomLeftRadius="8dp"
+		    	android:topLeftRadius="8dp"
+		    	android:topRightRadius="8dp"
+		       />
+			<stroke
+				android:width="6px"
+				android:color="#f0ffffff"
+		       />
+		    <padding
+		    	android:left="5dp"
+		       android:top="5dp"
+		       android:right="5dp"
+		       android:bottom="5dp"
+		       />
+		</shape>
+    </item>
+</layer-list>
+
